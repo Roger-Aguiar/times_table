@@ -1,0 +1,57 @@
+<!-- 
+    Name:         Roger Silva Santos Aguiar
+    Function:     It displays a times table
+    Initial date: January 13, 2021
+    Last update:  January 13, 2021 
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Times Table</title>
+    </head>
+
+    <body>
+        <h1>Times table</h1>
+        <script src="Scripts/my_scripts.js"></script>
+
+        <table>
+            <tr>
+                <td>
+                    <label for="">Enter the times table: </label>
+                </td>
+                <td>
+                    <input type="text" id="times_table">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Enter the initial value: </label>
+                </td>
+                <td>
+                    <input type="text" id="initial_value">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Enter the final value: </label>
+                </td>
+                <td>
+                    <input type="text" id="final_value">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button id="display_times_table" onclick="display_times_table()">Display Times Table</button>
+                </td>                
+            </tr>
+        </table>
+
+        <h2 id="result"></h2>
+        <p id="results"></p>
+    </body>
+</html>
